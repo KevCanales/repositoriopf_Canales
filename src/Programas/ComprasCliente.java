@@ -28,6 +28,13 @@ public class ComprasCliente {
         System.out.println("Nombre del Cliente: " + nombre);
         System.out.println("Total compras        : " + total);
         System.out.println("Promedio compras     : " + promedio);
+
+        // Evaluación del cliente según promedio
+        if (promedio > 1500) {
+            System.out.println("¡Buen cliente! Superaste el promedio esperado.");
+        } else {
+            System.out.println("Gracias por tu compra. ¡Te esperamos pronto!");
+        }
     }
 }
 
