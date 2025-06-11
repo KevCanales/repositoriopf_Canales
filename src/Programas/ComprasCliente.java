@@ -18,10 +18,13 @@ public class ComprasCliente {
 
         System.out.print("Ingrese la compra 3: ");
         double compra3 = input.nextDouble();
+        
+        System.out.print("Ingrese la compra 4: ");
+        double compra4 = input.nextDouble();
 
         // Cálculos
-        double total = compra1 + compra2 + compra3;
-        double promedio = total / 3;
+        double total = compra1 + compra2 + compra3 + compra4;
+        double promedio = total / 4;
 
         // Resultados
         System.out.println("\n--- Resultados ---");
